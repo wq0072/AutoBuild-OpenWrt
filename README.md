@@ -1,22 +1,36 @@
-# AutoBuild-OpenWrt
-
-这是我的养老包OpenWrt AutoBuild Repo (x86_64架构专用). <br>
-点击Release或者Action下载（需登录Github）<br>
-If you need OpenWrt for NanoPi R2S/R4S, checkout [this GitHub repository](https://github.com/Kurokosama/Nanopi-R2S-R4S-OpenWrt).
-
-~~以下是代码白嫖列表:~~ <br>
-Build OpenWrt firware [Lean's OpenWRT](https://github.com/coolsnowwolf/lede) using GitHub Actions  
-Hereby thank P3TERX for his amazing job: https://github.com/P3TERX/Actions-OpenWrt/ <br>
-Hereby thank esirplayground for his amazing job: https://github.com/esirplayground/AutoBuild-OpenWrt <br>
-插件情况点击此链接： https://cn.jwtechtips.top/archives/72 <br>
-
+# OpenWrt Firmware build by Github Action
+#### ⚠ WARNING: USE IT AT YOUR OWN RISK.
+#### ⚠ Non-profit Uses Only / 仅供个人学习使用.
+- - -
+My personal customized OpenWrt firmware auto build and release by using Github Action. <br>
+Default login address is [192.168.1.1](192.168.1.1), username / password: `root` / `password`.<br>
+Please change the login password **as soon as possible** once you log in.
+- - -
+Firmware Screenshot: <br>
+<img src="https://github.com/Kurokosama/AutoBuild-OpenWRT/blob/27848e715d3ba57727165f94cc4319f59e1f88bb/images/openwrt.png?raw=true" alt="OpenWrt Screenshot" width="730">
 ## Usage
-
 - Fork [this GitHub repository](https://github.com/Kurokosama/AutoBuild-OpenWRT).
 - Click Action on the top menu.
-- Click "Build_x86_64" on the left side workflows menu.
+- Click the appropriate workflow on the left side menu bar.
 - Click "Run workflow" green button, then wait for few hours to build firmware.
 - When the build is complete, you can download firmware from "Artifacts" or Github Release page.
 <br>
+<img src="https://github.com/Kurokosama/AutoBuild-OpenWRT/blob/50cc2fff6fd6b66e62df639ad7bfcde3cef6f945/images/screenshot.png?raw=true" alt="Workflow Screenshot" width="730">
+<br>
 
-![Screenshot](https://github.com/Kurokosama/AutoBuild-OpenWRT/blob/28e159a4c7bce2e53bb2818fc8b5323ec2403103/screenshot.png)
+## What are NanoPi R2S and R4S?
+| [NanoPi R2S wiki](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R2S) | [NanoPi R4S wiki](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R4S) |
+| ----------- | ----------- |
+- - -
+## Support the original developer if you like
+[AFDian @CN\_SZTL](https://afdian.net/@CN\_SZTL/plan)
+- - -
+
+### Source Code
+[coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) <br>
+[immortalwrt/immortalwrt](https://github.com/immortalwrt/immortalwrt) <br>
+
+Also thanks to `eSir PlayGround`, `P3TERX` for their amazing works.  <br>
+
+<strong>Please checkout my blog site: ⭐[JW Tech Tips](https://www.jwtechtips.top/)⭐</strong><br>
+中文博客地址: [cn.jwtechtips.top](https://cn.jwtechtips.top/)
